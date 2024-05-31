@@ -2,7 +2,7 @@ const canvas_area = document.getElementById("canvas_area");
 const cnvs = canvas_area.getContext("2d");
 const width = cnvs.width;
 const height = cnvs.height;
-const cellSize = 3;
+const cellSize = 2;
 const cellsPerRow = width/cellSize;
 
 const ruleset = [0, 0, 0, 1, 1, 1, 1, 0];
