@@ -12,7 +12,7 @@ generation[Math.floor(cellsPerRow/2)] = 1;
 
 function applyRule(left, center, right){
     const index = (left << 2) | (center << 1) | right;
-    return ruleSet[7-index];
+    return ruleset[7-index];
 }
 
 function drawGeneration(generation){
