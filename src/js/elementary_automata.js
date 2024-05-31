@@ -18,7 +18,7 @@ function applyRule(left, center, right){
 function drawGeneration(generation){
     generation.forEach((cell, index) => {
         cnvs.fillStyle = cell ? 'black' : 'white';
-        cnvs.fillRect(index * cellSize, 0, cellSize, CellSize);
+        cnvs.fillRect(index * cellSize, 0, cellSize, cellSize);
 });
 }
 
